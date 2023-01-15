@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main-section {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  padding-top: 2.5rem;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.8rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.4s;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #fc3e65;
+}
+
+.btn {
+  font-size: medium;
+  text-decoration: none;
+  background-color: #fc3e65;
+  color: #ffffff;
+  padding: 0.81rem 1.87rem;
+  border-radius: 30px;
+}
+header p {
+  size: 40;
+}
